@@ -29,3 +29,7 @@ const cartSlice = createSlice({
 		removeItemFromCart() {},
 	},
 });
+
+export const cartActions = cartSlice.actions;
+
+export default cartSlice;
