@@ -13,6 +13,7 @@ const Cart = () => {
 					<CartItem
 						key={cartItem.itemId}
 						item={{
+							itemId: cartItem.itemId,
 							title: cartItem.name,
 							quantity: cartItem.quantity,
 							total: cartItem.totalPrice,
